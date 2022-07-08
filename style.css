@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 400px;
+}
+
+.container {
+  padding: 150px 20px;
+  text-align: center;
+}
+
+.btn-prev,
+.btn-next,
+.slider-wrapper,
+.dot {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.slider-line {
+  display: flex;
+  position: relative;
+  left: 0;
+}
+
+/*смещаем главный слайд на середину а ост скрываем*/
+.slider-wrapper {
+  width: 400px;
+  overflow: hidden;
+  margin: 15px;
+  border: 1px solid rgb(111, 240, 208);
+  box-shadow: 5px 5px 5px 0px rgb(95, 213, 218);
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: antiquewhite;
+}
